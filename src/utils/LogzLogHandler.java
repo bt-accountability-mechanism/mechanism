@@ -6,7 +6,6 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.logging.Handler;
 import java.util.logging.LogRecord;
 import java.util.logging.SimpleFormatter;
@@ -63,15 +62,11 @@ public class LogzLogHandler extends Handler {
 	}
 
 	@Override
-	public void flush() {
-		// TODO Auto-generated method stub
-		
+	public void flush() {		
 	}
 
 	@Override
-	public void close() throws SecurityException {
-		// TODO Auto-generated method stub
-		
+	public void close() throws SecurityException {		
 	}
 
 }
